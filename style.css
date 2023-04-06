@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Sarabun:wght@200;300&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+}
+
+/*----Navbar starts-----*/
+
+.logo:hover{
+    filter: brightness(120%);
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black(0,0,0,.5);
+    background: black;
+}
+
+li{
+    padding: 5px;
+}
+
+#navbarSupportedContent a{
+    font-size: 18px;
+    color: white;
+}
+
+#navbarSupportedContent a:hover{
+    color: rgb(6, 176, 243);
+}
+
+
+.search-icon:hover{
+    filter: brightness(150%);
+  }
+
+/*----Navbar Ends-----*/
+
+/*----Home Slider Starts-----*/
+.wrapper{
+    width: 100%;
+
+}
+
+.wrapper .carousel{
+    max-width: 900 px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+/*----Home Slider Ends-----*/

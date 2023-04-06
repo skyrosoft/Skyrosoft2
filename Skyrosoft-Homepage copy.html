@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <title>SKYROSOFT</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    
+</head>
+
+<body>
+<header>
+    <div id="navigation-container">
+        <div id="logo"><a href="http://www.skyrosoft.com/"><img src="Skyrosoft-Logo-0002.jpg" alt="Skyrosoft-Logo.0002" width=150px height=50px/></a>
+        </div>
+        <nav class="navlistbar">
+                <ul id="navlist">
+                    <li><a class=item href="Skyrosoft1.html">Home </a></li>
+                    <li><a class=item href="Skyrosoftwhatwedo.html">What we do</a></li>
+                    <li><a class=item href="Skyrosoftaboutus.html">About us</a></li>
+                    <li><a class=item href="Skyrosoftcareer.html">Career </a></li>
+                    <li><a class=item href="Skyrosoftcontactus.html">Contact us</a></li>
+                </ul>
+        </nav>
+
+        <div class="box">
+            <div class="container-2">
+                
+                <span class="icon">
+                    
+
+                     
+               
+                    <svg id="searchmirror" width="28" height="28" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="search-icon"><circle fill="black" stroke="#0BA1F5" stroke-width="2" cx="9" cy="9" r="7"></circle><path fill="none" stroke="#0BA1F5" stroke-width="2" d="M14,14 L18,18 L14,14 Z"></path></svg></span>
+                <form action="javascript:redirect()" autocomplete="off">    
+                    <div id="search results"></div>  
+                    <input type="search" name="search-input" id="search-input" placeholder="Search here..." />
+                     
+                </form>
+
+                <svg class="icon2" id="clear" width="18" height="18" fill="#0BA1F5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 492 492" style ="enable-background:new 0 0 492 492;" xml:space="preserve" onclick="searchPosts(0)">
+                <g>
+                    <g>
+                        <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                            c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                            c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                            L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                            c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                            c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                            c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                    </g>
+                </g>
+                </svg>
+
+                <script type="text/javascript" src="skyrosearch.js"></script>
+
+
+                
+            </div>
+        </div>
+
+    </div><!-- .NavigationRibbon -->
+
+
+</header>
+
+   <!--Scroll Start-->
+
+   <a href="#" id="scroll" style="display: none;"><span></span></a>
+
+<script>
+
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+
+</script>
+
+   <!--Scroll End-->
+
+
+<section>
+
+<!--Slider start-->
+
+ 
+    
+    <article class="wrapper">
+    
+        <div class="carousel">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 7</div>
+                <div class="content">
+                    <img class="content-image" src="Slide-001.jpg" style="width:100%" height="600px">
+                    <div class="content-details"><a href=""><span class="border"><h3>More</h3></span></a></div>
+                </div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 7</div>
+                <div class="content">
+                    <img class="content-image" src="Slide-002.jpg" style="width:100%" height="600px">
+                    <div class="content-details"><a href=""><span class="border"><h3>More</h3></span></a></div>
+                </div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 7</div>
+                <div class="content">
+                    <img class="content-image" src="Slide-003.jpg" style="width:100%" height="600px">
+                    <div class="content-details"><a href=""><span class="border"><h3>More</h3></span></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 7</div>
+                <div class="content">
+                    <img class="content-image" src="Slide-004.jpg" style="width:100%" height="600px">
+                    <div class="content-details"><a href=""><span class="border"><h3>More</h3></span></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 7</div>
+                <div class="content">
+                    <img class="content-image" src="Slide-005.jpg" style="width:100%" height="600px">
+                    <div class="content-details"><a href=""><span class="border"><h3>More</h3></span></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 7</div>
+                <div class="content">
+                    <img class="content-image" src="Slide-006.jpg" style="width:100%" height="600px">
+                    <div class="content-details"><a href=""><span class="border"><h3>More</h3></span></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 7</div>
+                <div class="content">
+                    <img class="content-image" src="Slide-007.jpg" style="width:100%" height="600px">
+                    <button type="button" class="btn btn-primary">Chat With Us</button>
+                </div>
+            </div>
+        </div>
+ 
+
+    </article>
+
+    <script>
+        $('.slide-show').slick({
+            centerMode:true,
+
+            cssEase:'ease',
+            draggable:true,
+            easing:'linear',
+            pauseOnHover:true,
+            respondTo:'window',
+            swipe:true,
+            touchMove:true,
+    
+    
+    initialSlide: 0,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false, 
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    variableWidth: true,
+
+    
+    responsive: [ 
+            { 
+                // tablet 
+                breakpoint: 991, 
+                variableWidth: true,
+                settings: { 
+                slidesToShow: 1 
+                } 
+            }, 
+            { 
+                // mobile portrait
+                breakpoint: 479,
+                variableWidth: true,
+                settings: {
+                slidesToShow: 1
+                }
+            }
+                ]
+    
+   
+    
+    });
+    </script>
+
+
+<!--Slider End-->
+
+
+<div>
+    <h2>OUR RANG OF SERVICES</h2>
+</div>
+    <article class="section1">
+        <img src="SectionNewImage.png">
+        <h1 class="transparent">We do at Skyrosoft</h1>
+        <h2 class="transparent">Innovative and Simplified Solutions</h2>
+        <p class="transparent">We Skyrosoft understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions We at Skyrosoft understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions We at Skyrosoft understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions We at Skyrosoft understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions </p>
+    </article>
+
+    <article class="section2">
+            <div class="row">
+                <a href="" class="img">
+                    <img src="/Images/0001.png" alt="Image1" width="280px" height="300px"></a>
+                <a href="" class="img">
+                    <img src="/images/0002.png" alt="Image2" width="280px" height="300px"></a>
+                <a href="" class="img">
+                    <img src="/images/0003.png" alt="Image3" width="280px" height="300px"></a>
+            </div>
+
+            <div class="row">
+                <a href="" class="img">
+                    <img src="/images/0004.png" alt="Image4" width="280px" height="300px"></a>
+                <a href="" class="img">
+                    <img src="/images/0001.png" alt="Image5" width="280px" height="300px"></a>
+                <a href="" class="img">
+                    <img src="/images/0002.png" alt="Image6" width="280px" height="300px"></a>
+            </div>
+    </article>
+
+    <article class="section3">
+        <img src="SectionNewImage.png">
+        <h1 class="transparent">We do at Skyrosoft</h1>
+        <h2 class="transparent">Innovative and Simplified Solutions</h2>
+        <p class="transparent">We at Skyrosoft understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions We at Skyrosoft understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions We at Skyrosoft understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions We at Skyrosoft understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions </p>
+    </article>
+
+    <article class="section4">
+        <img src="SectionNewImage.png">
+        <h1 class="transparent">We do at Skyrosoft</h1>
+        <h2 class="transparent">Innovative and Simplified Solutions</h2>
+        <p class="transparent">We at Skyrosoft understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions We at Skyrosoft understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions We at Skyrosoft understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions We at Skyrosoft understand the manual e at Skyrosoft e at Skyrosoft understand the manualunderstand the manualchallenges and try tosdflkjslkdfj als;kjdf;lkjlsa l;kkjsadfl;jla;dsf l;jaslkdfj;lkj;alsddfl;kkjdsff  asdflkkjdsfl;f dfjalksjdf  create innovations solutions </p>
+    </article>
+
+</section>
+
+
+
+
+
+<footer>
+    <div class="rowprimary">
+
+        <div class="column about">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a class="footer-headline" href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Social</a></li>
+            </ul>
+        </div>
+    
+        <div class="column links">
+            <h3>Some Links</h3>
+            <ul>
+                <li><a href="#faq">F.A.Q</a></li>
+                <li><a href="#cookies-policy">Cookies Policy</a></li>
+                <li><a href="#terms-of-services">Terms Of Service</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </div>
+
+        <div class="column links">
+            <h3>Technology Stack</h3>
+            <ul>
+                <li><a href="#faq">Java</a></li>
+                <li><a href="#cookies-policy">Python</a></li>
+                <li><a href="#terms-of-services">Oracle</a></li>
+                <li><a href="#support">HTML5 / CSS3</a></li>
+                <li><a href="#support">MySQL</a></li>
+            </ul>
+        </div>
+    
+        <div class="column subscribe">
+
+            <a href = "mailto:admin@skyrosoft.com?subject = Feedback&body = Message">
+                Send Feedback
+            </a>
+        </div>
+        <div></div>
+    </div>
+    
+    <div class="row copyright">
+        <p>Copyright &copy: 2022 Skyrosoft Technologies</p>
+    </div>    
+
+ 
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</body>
+</html>    

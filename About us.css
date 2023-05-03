@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+  align-items: right;
+  
+  }
+  
+  .heroContent {
+    width: 200px;
+    height: 700px;
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 70%; /* Full width */
+    padding: 20px; /* Some padding */
+    top: 25%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  }
+   
+   /* Form which you dont need */
+   .user-login-box{
+     position: relative;
+     margin-top: 50px;
+     text-align: center;
+     z-index: 1;
+   }
+   .user-login-box > *{
+     display: inline-block;
+     width: 200px;
+   }
+
+
+  .heroContent h1 {
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .heroContent h1 p {
+    color: white;
+  }
+
+  .subtext {
+    color: #000000;
+    font-weight: 700;
+  }
+
+  /*.......Image Over Text .......*/
+
+
+  /*---- Footer Starts -----*/
+.bg-footer {
+  background-color: #1d262e;
+  padding: 50px 0 30px;
+
+}
+.footer-heading {
+  letter-spacing: 2px;
+  
+}
+
+.footer-link a {
+  color: #acacac;
+  line-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.footer-link a:hover {
+  color: #1bbc9b;
+}
+
+.contact-info {
+  color: #acacac;
+  font-size: 14px;
+}
+
+.footer-social-icon {
+  font-size: 15px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.facebook {
+  background-color: #4e71a8;
+  color: #ffffff;
+}
+
+.twitter {
+  background-color: #55acee;
+  color: #ffffff;
+}
+
+.google {
+  background-color: #d6492f;
+  color: #ffffff;
+}
+
+.apple {
+  background-color: #424041;
+  color: #ffffff;
+}
+
+.footer-alt {
+  color: #acacac;
+}
+
+.footer-heading {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer-heading:after {
+  content: '';
+  width: 25px;
+  border-bottom: 1px solid #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid #1bbc9b;
+}
+
+
+
+/*---- Footer Ends-----*/
